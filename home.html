@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Marcelo Rodrigues Rosa Paschoal">
+    <meta name="description" content="Depósito de conteúdo criativo">
+
+    <title>Devaneios Criativos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div name="app" class="app">
+        <header class="topbar">
+            <div class="header_content">
+                <div class="topbar_top">
+                    <h1 class="logo">Devaneios Criativos</h1>
+                    <button class="btn_dark" onclick="toggleDark()" id="darkBtn">Dark</button>
+                </div>
+                <nav class="topbar_bottom" id="topbar_bottom">
+                    <div class="nav_item" onclick="navigate('home', this)" data-page="home">Início</div>
+                    <div class="nav_item" onclick="navigate('books', this)" data-page="books">Livros</div>
+                    <div class="nav_item" onclick="navigate('characters', this)" data-page="characters">Personagens</div>
+                    <div class="nav_item" onclick="navigate('cultures', this)" data-page="cultures">Culturas</div>  <!--Raça-->
+                    <div class="nav_item" onclick="navigate('rituals', this)" data-page="rituals">Rituais</div>
+                    <div class="nav_item" onclick="navigate('criatures', this)" data-page="criatures">Criaturas</div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <!-- HOME -->
+            <section class="home_page" id="home_page">
+
+            </section>
+
+            <!-- BOOKS -->
+            <section class="books_page" id="books_page">
+
+            </section>
+
+            <!-- CHARACTERS -->
+            <section class="characters_page" id="characters_page">
+
+            </section>
+
+            <!-- CULTURES -->
+            <section class="cultures_page" id="cultures_page">
+
+            </section>
+
+            <!-- rITUALS -->
+            <section class="rituals_page" id="rituals_page">
+
+            </section>
+
+            <!-- CRIATURES -->
+            <section class="criatures_page" id="criatures_page">
+                
+            </section>
+        </main>
+        <footer>
+            <div class="footer_content">
+                <h6>Data de início do projeto: 12/05/2026</h6>
+            </div>
+        </footer>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
