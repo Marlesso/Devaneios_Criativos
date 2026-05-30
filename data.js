@@ -10,7 +10,7 @@ export const livros = [
                 subtitulo: '',
                 conteudo: `
                     <p>
-
+                        
                     </p>
                 `
             }
@@ -47,7 +47,7 @@ export const culturas = [       //Raça
         pontosFracos: [],
         historia: `
             <p>
-
+                
             </p>
         `
     }
