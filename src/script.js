@@ -34,7 +34,7 @@ function toggleDark() {
     localStorage.setItem('darkMode', isDarkMode);
     
     // Mudar texto do botão
-    btn.textContent = isDarkMode ? 'Light' : 'Dark';
+    btn.textContent = isDarkMode ? 'Dark' : 'Light';
 }
 
 // Carregar preferência ao inicializar
