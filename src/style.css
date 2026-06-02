@@ -41,7 +41,7 @@ body {
     background: var(--bg);
     color: var(--text1);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.6;
     transition: var(--transition);
 }
@@ -145,7 +145,7 @@ main::-webkit-scrollbar-thumb:hover {
     white-space: nowrap;
     transition: var(--transition);
     border: 2px solid transparent;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .nav_item:hover {
@@ -179,7 +179,7 @@ body.dark-mode .nav_item.active {
     border-radius: 6px;
     cursor: pointer;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 15px;
     transition: var(--transition);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -245,13 +245,20 @@ section.active {
 .card h3 {
     color: var(--text2);
     margin-bottom: 8px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .card p {
     color: var(--text3);
-    font-size: 13px;
+    font-size: 15px;
     line-height: 1.5;
+}
+
+.paragrafo{
+    text-indent: 2em;
+    color: var(--text3);
+    font-size: 15px;
+    line-height: 1.6;
 }
 
 /* FOOTER */
@@ -295,12 +302,12 @@ footer h6 {
 
     .nav_item {
         padding: 8px 12px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .btn_dark {
         padding: 6px 12px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     main {
@@ -324,12 +331,12 @@ footer h6 {
 
     .nav_item {
         padding: 6px 10px;
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .btn_dark {
         padding: 5px 10px;
-        font-size: 11px;
+        font-size: 13px;
     }
 
     main {
@@ -341,10 +348,10 @@ footer h6 {
     }
 
     .card h3 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .card p {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
