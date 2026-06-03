@@ -46,7 +46,7 @@ function renderCulturas() {
             <p><strong>Aparência atípica:</strong> ${c.aparencia_atipica}.</p>
             <p><strong>Pontos fortes:</strong> ${c.pontosFortes.join(', ')}.</p>
             <p><strong>Pontos fracos:</strong> ${c.pontosFracos.join(', ')}.</p><br>
-            <div class="card_historia">${c.historia}</div>
+            <div>${c.historia}</div>
         </div>
     `).join('');
 }

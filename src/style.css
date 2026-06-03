@@ -254,7 +254,7 @@ section.active {
     line-height: 1.5;
 }
 
-.paragrafo{
+.card .paragrafo{
     text-indent: 2em;
     color: var(--text3);
     font-size: 15px;
