@@ -1,0 +1,18 @@
+.books-page details {
+  margin-top: 8px;
+}
+
+.books-page summary {
+  color: var(--text2);
+  cursor: pointer;
+}
+
+.chapter-card {
+  margin-top: 10px;
+}
+
+.chapter-card em {
+  display: inline-block;
+  margin-bottom: 8px;
+  color: var(--text3);
+}
